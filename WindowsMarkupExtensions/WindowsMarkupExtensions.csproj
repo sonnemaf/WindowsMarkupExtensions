@@ -1,0 +1,19 @@
+﻿<Project Sdk="MSBuild.Sdk.Extras/1.6.55">
+
+  <PropertyGroup>
+    <TargetFrameworks>uap10.0.16299</TargetFrameworks>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <Version>1.0.0</Version>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+    <FileVersion>$(AssemblyVersion)</FileVersion>
+    <Company>Reflection IT</Company>
+    <PackageId>WindowsMarkupExtensions</PackageId>
+    <Product>WindowsMarkupExtensions</Product>
+    <Authors>Fons Sonnemans</Authors>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.NETCore.UniversalWindowsPlatform" Version="6.1.7" PrivateAssets="all" />
+  </ItemGroup>
+
+</Project>
