@@ -1,0 +1,26 @@
+﻿<Project Sdk="MSBuild.Sdk.Extras/1.6.55">
+
+  <PropertyGroup>
+    <TargetFrameworks>uap10.0.16299</TargetFrameworks>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <Version>1.0.0</Version>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+    <FileVersion>$(AssemblyVersion)</FileVersion>
+    <Company>Reflection IT</Company>
+    <PackageId>ReflectionIT.WindowsMarkupExtensions</PackageId>
+    <Product>ReflectionIT.WindowsMarkupExtensions</Product>
+    <Authors>Fons Sonnemans</Authors>
+    <RepositoryUrl>https://github.com/sonnemaf/WindowsMarkupExtensions</RepositoryUrl>
+    <PackageProjectUrl>https://github.com/sonnemaf/WindowsMarkupExtensions</PackageProjectUrl>
+    <PackageLicenseUrl>https://github.com/sonnemaf/WindowsMarkupExtensions/blob/master/LICENSE.md</PackageLicenseUrl>
+    <Copyright>2018 Reflection IT</Copyright>
+    <PackageTags>xaml uwp</PackageTags>
+    <Description>MarkupExtensions used in UWP apps</Description>
+    <PackageReleaseNotes>Initial version with the OnDeviceExtension which can be used for DeviceFamily specific property values</PackageReleaseNotes>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.NETCore.UniversalWindowsPlatform" Version="6.1.7" PrivateAssets="all" />
+  </ItemGroup>
+
+</Project>

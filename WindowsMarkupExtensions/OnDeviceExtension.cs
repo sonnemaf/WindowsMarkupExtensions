@@ -2,7 +2,7 @@
 using Windows.ApplicationModel;
 using Windows.UI.Xaml.Markup;
 
-namespace WindowsMarkupExtensions {
+namespace ReflectionIT.WindowsMarkupExtensions {
 
     /// <summary>
     /// MarkupExtension used for DeviceFamily specific property values

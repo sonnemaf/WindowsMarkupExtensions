@@ -157,9 +157,9 @@
     </PackageReference>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\WindowsMarkupExtensions\WindowsMarkupExtensions.csproj">
+    <ProjectReference Include="..\WindowsMarkupExtensions\ReflectionIT.WindowsMarkupExtensions.csproj">
       <Project>{97b7a2d5-d1c2-4428-a13f-c3785d1de534}</Project>
-      <Name>WindowsMarkupExtensions</Name>
+      <Name>ReflectionIT.WindowsMarkupExtensions</Name>
     </ProjectReference>
   </ItemGroup>
   <PropertyGroup Condition=" '$(VisualStudioVersion)' == '' or '$(VisualStudioVersion)' &lt; '14.0' ">

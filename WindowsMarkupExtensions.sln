@@ -5,7 +5,7 @@ VisualStudioVersion = 15.0.28107.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestApp", "TestApp\TestApp.csproj", "{EEC39FF8-A001-4B96-9BC2-CD746E50C12A}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WindowsMarkupExtensions", "WindowsMarkupExtensions\WindowsMarkupExtensions.csproj", "{97B7A2D5-D1C2-4428-A13F-C3785D1DE534}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ReflectionIT.WindowsMarkupExtensions", "WindowsMarkupExtensions\ReflectionIT.WindowsMarkupExtensions.csproj", "{97B7A2D5-D1C2-4428-A13F-C3785D1DE534}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -37,6 +37,8 @@ Global
 		{EEC39FF8-A001-4B96-9BC2-CD746E50C12A}.Debug|x86.Build.0 = Debug|x86
 		{EEC39FF8-A001-4B96-9BC2-CD746E50C12A}.Debug|x86.Deploy.0 = Debug|x86
 		{EEC39FF8-A001-4B96-9BC2-CD746E50C12A}.Release|Any CPU.ActiveCfg = Release|x86
+		{EEC39FF8-A001-4B96-9BC2-CD746E50C12A}.Release|Any CPU.Build.0 = Release|x86
+		{EEC39FF8-A001-4B96-9BC2-CD746E50C12A}.Release|Any CPU.Deploy.0 = Release|x86
 		{EEC39FF8-A001-4B96-9BC2-CD746E50C12A}.Release|ARM.ActiveCfg = Release|ARM
 		{EEC39FF8-A001-4B96-9BC2-CD746E50C12A}.Release|ARM.Build.0 = Release|ARM
 		{EEC39FF8-A001-4B96-9BC2-CD746E50C12A}.Release|ARM.Deploy.0 = Release|ARM
