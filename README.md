@@ -1,5 +1,5 @@
 # WindowsMarkupExtensions
-Windows Markup Extensions for UWP apps
+Windows Markup Extensions for UWP apps. It requires the Windows Fall Creators Update (16299) as the minimum version. 
 
 Get it on nuget:
 ```
@@ -23,7 +23,7 @@ see https://github.com/xamarin/Xamarin.Forms/issues/2608
 
     <Grid>
         <TextBlock Text="{wme:OnDevice Desktop=Hello, Xbox=World}"
-                   FontSize="{wme:OnDevice Team=42, Default=21}" 
+                   FontSize="{wme:OnDevice Team=42, IoT=60, Default=21}" 
                    HorizontalAlignment="Center" 
                    VerticalAlignment="Center"/>
     </Grid>
