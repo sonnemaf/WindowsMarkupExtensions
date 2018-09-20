@@ -1,5 +1,5 @@
 # WindowsMarkupExtensions
-Windows Markup Extensions for UWP apps
+Windows Markup Extensions for UWP apps. It requires the Windows Fall Creators Update (16299) as the minimum version. 
 
 Get it on nuget:
 ```
