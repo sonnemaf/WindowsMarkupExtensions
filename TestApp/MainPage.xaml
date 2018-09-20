@@ -7,10 +7,15 @@
     mc:Ignorable="d"
     xmlns:wme="using:ReflectionIT.WindowsMarkupExtensions"
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
-
+    <Page.Resources>
+        <SolidColorBrush x:Key="BrushRed" Color="Red" />
+        <SolidColorBrush x:Key="BrushBlue" Color="Blue" />
+    </Page.Resources>
     <Grid>
         <TextBlock Text="{wme:OnDevice Desktop=Hello, Xbox=World}"
-                   FontSize="{wme:OnDevice Team=42, Default=21}" 
+                   FontSize="{wme:OnDevice Team=42, IoT=60, Default=21}" 
+                   Foreground="{wme:OnDevice Team={StaticResource BrushRed}, 
+                                             Default={StaticResource BrushBlue}}"
                    HorizontalAlignment="Center" 
                    VerticalAlignment="Center"/>
     </Grid>
