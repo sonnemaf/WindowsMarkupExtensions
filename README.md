@@ -6,7 +6,7 @@ Get it on nuget:
    PM> Install-Package WindowsMarkupExtensions 
 ```
 
-The OnDevice markup extension can be used for DeviceFamily specific property values. 
+The **OnDevice** markup extension can be used for DeviceFamily specific property values. 
 It is inspired on the OnPlatform/OnIdiom markup extensions from Xamarin.Forms 3.2, 
 see https://github.com/xamarin/Xamarin.Forms/issues/2608
 
