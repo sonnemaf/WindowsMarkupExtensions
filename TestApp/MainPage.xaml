@@ -1,22 +1,29 @@
-﻿<Page
-    x:Class="TestApp.MainPage"
-    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
-    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
-    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-    mc:Ignorable="d"
-    xmlns:wme="using:ReflectionIT.WindowsMarkupExtensions"
-    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+﻿<Page x:Class="TestApp.MainPage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+      xmlns:wme="using:ReflectionIT.WindowsMarkupExtensions"
+      Background="{ThemeResource ApplicationPageBackgroundThemeBrush}"
+      mc:Ignorable="d">
     <Page.Resources>
-        <SolidColorBrush x:Key="BrushRed" Color="Red" />
-        <SolidColorBrush x:Key="BrushBlue" Color="Blue" />
+        <SolidColorBrush x:Key="BrushRed"
+                         Color="Red" />
+        <SolidColorBrush x:Key="BrushBlue"
+                         Color="Blue" />
     </Page.Resources>
     <Grid>
-        <TextBlock Text="{wme:OnDevice Desktop=Hello, Xbox=World}"
-                   FontSize="{wme:OnDevice Team=42, IoT=60, Default=21}" 
-                   Foreground="{wme:OnDevice Team={StaticResource BrushRed}, 
-                                             Default={StaticResource BrushBlue}}"
-                   HorizontalAlignment="Center" 
-                   VerticalAlignment="Center"/>
+        <StackPanel>
+            <TextBlock HorizontalAlignment="Center"
+                       VerticalAlignment="Center"
+                       FontSize="30"
+                       Text="{wme:OnDevice Desktop=Hello, Xbox=World}" />
+
+            <!--
+                FontSize="{wme:OnDevice Default=33, Team=42, IoT=60}"
+                Foreground="{wme:OnDevice Team={StaticResource BrushRed}, Default={StaticResource BrushBlue}}"
+            -->
+
+        </StackPanel>
     </Grid>
 </Page>
